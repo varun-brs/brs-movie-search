@@ -1,0 +1,98 @@
+:root {
+  --primary-color: #1a4b84;
+  --chathams_blue: #1a4b84;
+  --tamarillo: #991e14;
+  --yellow_sea: #fead06;
+}
+
+* {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+#navIcon {
+  width: 5rem;
+  height: 5rem;
+}
+
+.card {
+  margin-bottom: 1em;
+  border: none;
+}
+
+.card-title {
+  color: black;
+}
+
+.tituloPelicula {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.tituloPelicula h5 {
+  color: black;
+}
+
+.tituloPelicula:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+#imgPelicula:hover {
+  opacity: 0.4;
+  transition: 1s;
+}
+
+#movies img {
+  height: 25em;
+  border: 1px solid black;
+  padding: 2px;
+}
+
+#divImagen img {
+  height: 25em;
+  border: 1px solid black;
+}
+
+.modal-dialog {
+  overflow-y: initial !important;
+}
+
+.modal-body {
+  height: 50vh;
+  overflow-y: auto;
+}
+
+.card-title {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.card-title .card-img-top {
+  z-index: 0;
+}
+
+.card-title .card-text {
+  text-align: center;
+  width: 100%;
+  margin: 33% 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.btn-search,
+.btn-search:hover,
+.btn-search:active,
+.btn-search:focus-visible,
+.btn-search:focus {
+  color: #fff;
+  border: 1px solid var(--primary-color);
+  box-shadow: 5px var(--primary-color);
+  background-color: var(--primary-color);
+}
+
+#load {
+  z-index: 9999 !important;
+  position: fixed;
+}
